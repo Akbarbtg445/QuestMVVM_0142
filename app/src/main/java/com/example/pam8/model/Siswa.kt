@@ -1,4 +1,9 @@
 package com.example.pam8.model
 
-class Siswa {
-}
+import android.R
+
+data class Siswa (
+    val nama : String = "",
+    val geder : String = "",
+    val alamat : String = ""
+)
