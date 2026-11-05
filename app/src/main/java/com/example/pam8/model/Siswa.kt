@@ -4,6 +4,6 @@ import android.R
 
 data class Siswa (
     val nama : String = "",
-    val geder : String = "",
+    val gender : String = "",
     val alamat : String = ""
 )
